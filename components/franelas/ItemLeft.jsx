@@ -4,11 +4,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import Image from "next/image";
 import style from "./franelas.module.scss";
-import calavera from "../../public/img/franelas/calavera.jpg";
-import calavera_2 from "../../public/img/franelas/calavera_item.jpg";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 
-const ItemLeft = () => {
+const ItemLeft = ({modelo, precio, descripcion, foto1, foto2, alt}) => {
   return (
     <>
       <article className={style.container}>
@@ -18,17 +16,17 @@ const ItemLeft = () => {
           navigation={{ clickable: true }}
         >
           <SwiperSlide>
-            <Image src={calavera} alt="franela sized sightless" />
+            <Image src={foto1} alt={alt} />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={calavera_2} alt="franela sized sightless" />
+            <Image src={foto2} alt={alt} />
           </SwiperSlide>
         </Swiper>
 
         <div className={style.content}>
-          <h2>Sized Sightless</h2>
-          <h3>$19.99</h3>
-          <p>Descripción de la franela, dar detalles, etc...</p>
+          <h2>{modelo}</h2>
+          <h3>{precio}</h3>
+          <p>{descripcion}</p>
           <table>
             <caption>Medidas (cm)</caption>
             <thead>
@@ -73,17 +71,17 @@ const ItemLeft = () => {
       <article className={style.container_2}>
         <div className={style.foto_container}>
           <div className={style.foto_item}>
-            <Image src={calavera} alt="franela sized sighless" />
+            <Image src={foto1} alt={alt} />
           </div>
           <div className={style.foto_item}>
-            <Image src={calavera_2} alt="franela sized sighless" />
+            <Image src={foto2} alt={alt} />
           </div>
         </div>
 
         <div className={style.content}>
-          <h2>Sized Sightless</h2>
-          <h3>$19.99</h3>
-          <p>Descripción de la franela, dar detalles, etc...</p>
+          <h2>{modelo}</h2>
+          <h3>{precio}</h3>
+          <p>{descripcion}</p>
           <table>
             <caption>Medidas (cm)</caption>
             <thead>
