@@ -18,7 +18,7 @@ const Hero = () => {
           Conviértete en tendencia con las mejores franelas oversize de
           Venezuela.
         </p>
-        <Link href="/">Compra ahora</Link>
+        <Link href="/">Ver catálogo</Link>
       </div>
 
       <div className={style.socials}>

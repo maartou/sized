@@ -13,8 +13,18 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
+
+.swiper-button-next {
+  color: white !important; 
+}
+
+.swiper-button-prev {
+  color: white !important; 
+}
+
 p {
   font-size: 1.2em;
+  margin: 0;
 }
 
 /* Sections
@@ -27,6 +37,10 @@ p {
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
+}
+
+h2,h3,h4,h5 {
+  margin: 0;
 }
 
 /**
@@ -44,7 +58,6 @@ main {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
 }
 
 /* Grouping content
@@ -154,6 +167,8 @@ sup {
 
 img {
   border-style: none;
+  width: 100%;
+  display: block;
 }
 
 /* Forms
