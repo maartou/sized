@@ -6,7 +6,7 @@ import Image from "next/image";
 import style from "./franelas.module.scss";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 
-const ItemLeft = ({modelo, precio, descripcion, foto1, foto2, alt}) => {
+const ItemLeft = ({modelo, precio, descripcion, foto1, foto2, alt, enlace}) => {
   return (
     <>
       <article className={style.container}>
@@ -41,22 +41,22 @@ const ItemLeft = ({modelo, precio, descripcion, foto1, foto2, alt}) => {
             <tbody>
               <tr>
                 <th>L</th>
-                <td>20</td>
-                <td>30</td>
-                <td>25</td>
+                <td>52</td>
+                <td>78</td>
+                <td>22</td>
                 <td>30</td>
               </tr>
               <tr>
                 <th>M</th>
-                <td>10</td>
-                <td>15</td>
+                <td>52</td>
+                <td>74</td>
                 <td>20</td>
-                <td>40</td>
+                <td>27</td>
               </tr>
             </tbody>
           </table>
           <a
-            href="https://api.whatsapp.com/send?phone=+584244429353&text=Hola%20buenos%20d%C3%ADas%20me%20gustar%C3%ADa%20comprar%20la%20franela%20SIZED%20SIGHLESS"
+            href={enlace}
             target="_blank"
             rel="noreferrer"
           >
@@ -96,22 +96,22 @@ const ItemLeft = ({modelo, precio, descripcion, foto1, foto2, alt}) => {
             <tbody>
               <tr>
                 <th>L</th>
-                <td>20</td>
-                <td>30</td>
-                <td>25</td>
+                <td>52</td>
+                <td>78</td>
+                <td>22</td>
                 <td>30</td>
               </tr>
               <tr>
                 <th>M</th>
-                <td>10</td>
-                <td>15</td>
+                <td>52</td>
+                <td>74</td>
                 <td>20</td>
-                <td>40</td>
+                <td>27</td>
               </tr>
             </tbody>
           </table>
           <a
-            href="https://api.whatsapp.com/send?phone=+584244429353&text=Hola%20buenos%20d%C3%ADas%20me%20gustar%C3%ADa%20comprar%20la%20franela%20SIZED%20SIGHLESS"
+            href={enlace}
             target="_blank"
             rel="noreferrer"
           >
