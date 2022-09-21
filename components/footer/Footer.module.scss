@@ -1,0 +1,59 @@
+.footer {
+    background: black;
+    color: white;
+
+    a {
+        color: white;
+    }
+
+    padding: 3em 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2em;
+}
+
+.foto {
+    width: 70%;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.2em;
+}
+
+.copy {
+    text-align: center;
+    p {
+        font-size: 1em;
+    }
+}
+
+.anchor {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 1024px) {
+    .foto {
+        width: 25%;
+    }
+
+    .links {
+        flex-direction: row;
+    }
+}
+

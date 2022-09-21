@@ -14,7 +14,7 @@ import savage2 from "../../public/img/franelas/savage_item.jpg";
 
 const Franelas = () => {
   return (
-    <section className={style.section}>
+    <section className={style.section} id="modelos">
       <ItemLeft
         modelo="Franela oversize Sized Sighless"
         precio="$19.99"

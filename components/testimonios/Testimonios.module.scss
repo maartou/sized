@@ -16,6 +16,10 @@
     margin: 0 auto;
 }
 
+.container_wide {
+    display: none;
+}
+
 .item {
     border: 1px solid white;
     padding: 1.5em;
@@ -43,6 +47,11 @@
     }
 }
 
+.swipe {
+    text-align: end;
+    margin: 1em;
+}
+
 @media screen and (min-width: 768px) {
     .container {
         width: 80%;
@@ -54,7 +63,28 @@
 }
 
 @media screen and (min-width: 1024px) {
+
+    .section {
+        h4 {
+            font-size: 1.5em;
+            padding: 2em 0;
+        }
+    }
+
     .container {
-        width: 60%;
+        display: none;
+    }
+
+    .container_wide {
+        margin: 0 auto;
+        width: 70%;
+        gap: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swipe {
+        display: none;
     }
 }
