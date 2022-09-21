@@ -13,6 +13,14 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
+::-webkit-scrollbar {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
 
 .swiper-button-next {
   color: white !important; 
