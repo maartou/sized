@@ -1,0 +1,60 @@
+.section {
+    background: black;
+    color: white;
+    padding-bottom: 3em;
+
+    h4 {
+        font-weight: 300;
+        text-align: center;
+        padding: 3em 0;
+        letter-spacing: 2px;
+    }
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.item {
+    border: 1px solid white;
+    padding: 1.5em;
+    cursor: default;
+
+    h3 {
+        font-size: 1.8em;
+        font-weight: 700;
+    }
+
+    .icon {
+        font-size: 1.2em;
+        color: rgb(213, 219, 63);
+        margin: .5em 0;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    h4 {
+        text-align: end;
+        padding: 0;
+        margin-top: 2em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    .item {
+        width: 99%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 60%;
+    }
+}
