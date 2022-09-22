@@ -1,6 +1,10 @@
 import style from "./franelas.module.scss";
 import ItemLeft from "./ItemLeft";
 import ItemRight from "./ItemRight";
+
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
+
 import calavera from "../../public/img/franelas/calavera.jpg";
 import calavera_2 from "../../public/img/franelas/calavera_item.jpg";
 import flower from "../../public/img/franelas/flower.jpg";
@@ -19,8 +23,8 @@ const Franelas = () => {
         modelo="Franela oversize Sized Sighless"
         precio="$19.99"
         descripcion="Este es nuestro modelo favorito. Un diseño minimalista en clásico negro hacen de esta franela una de nuestras más vendidas."
-        foto1={calavera}
-        foto2={calavera_2}
+        foto1={calavera || <Skeleton />}
+        foto2={calavera_2 || <Skeleton />}
         alt="franela oversize sized sightless"
         enlace="https://api.whatsapp.com/send?phone=+584244429353&text=Hola%20buenos%20d%C3%ADas%20me%20gustar%C3%ADa%20comprar%20la%20franela%20SIZED%20SIGHLESS"
       />
@@ -29,8 +33,8 @@ const Franelas = () => {
         modelo="Franela oversize UNLUCKY CATS model"
         precio="$16.99"
         descripcion="¿Eres fan de las caricaturas clásicas? nosotros sí. Con esta prenda llevarás toda la escencia de la vieja escuela a dónde quiera que vayas."
-        foto1={cats}
-        foto2={cats_item}
+        foto1={cats || <Skeleton />}
+        foto2={cats_item || <Skeleton />}
         alt="sized unlucky cats"
         enlace="https://api.whatsapp.com/send?phone=+584244429353&text=Buenos%20d%C3%ADas%20me%20gustar%C3%ADa%20comprar%20una%20franela%20SIZED%20UNLUCKY%20CATS%20"
       />

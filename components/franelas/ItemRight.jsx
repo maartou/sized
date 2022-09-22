@@ -1,9 +1,14 @@
+import Image from "next/image";
+import style from "./franelas.module.scss";
+
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
+
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import Image from "next/image";
-import style from "./franelas.module.scss";
+
 import { AiOutlineWhatsApp } from "react-icons/ai";
 
 const ItemRight = ({modelo, precio, descripcion, foto1, foto2, alt, enlace}) => {
@@ -16,10 +21,10 @@ const ItemRight = ({modelo, precio, descripcion, foto1, foto2, alt, enlace}) => 
           navigation={{ clickable: true }}
         >
           <SwiperSlide>
-            <Image src={foto1} alt={alt} />
+            <Image src={foto1 || <Skeleton /> } alt={alt} />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={foto2} alt={alt} />
+            <Image src={foto2 || <Skeleton />} alt={alt} />
           </SwiperSlide>
         </Swiper>
 
@@ -116,10 +121,10 @@ const ItemRight = ({modelo, precio, descripcion, foto1, foto2, alt, enlace}) => 
 
         <div className={style.foto_container}>
           <div className={style.foto_item}>
-            <Image src={foto1} alt={alt} />
+            <Image src={foto1 || <Skeleton />} alt={alt} />
           </div>
           <div className={style.foto_item}>
-            <Image src={foto2} alt={alt} />
+            <Image src={foto2 || <Skeleton />} alt={alt} />
           </div>
         </div>
 
