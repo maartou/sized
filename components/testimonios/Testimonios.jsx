@@ -18,7 +18,7 @@ const Testimonios = () => {
       >
         <SwiperSlide>
           <article className={style.item}>
-            <h3>Fantástico</h3>
+            <h3>Quedé encantada</h3>
             <span>
               <AiFillStar className={style.icon} />
               <AiFillStar className={style.icon} />
@@ -27,18 +27,17 @@ const Testimonios = () => {
               <AiFillStar className={style.icon} />
             </span>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Reiciendis, repellendus! Nostrum libero eum pariatur nisi facere,
-              et ut esse omnis at fugiat maxime mollitia vero expedita ipsa
-              consequuntur? Minima, itaque.
+              Cúando me llegaron las prendas pude ver instantáneamente que son
+              de muy buena calidad, se sienten muy bien en el cuerpo. Nunca
+              pensé que una franela podría ser tan cómoda de usar hasta hoy.
             </p>
-            <h4>- Miguel Padrón</h4>
+            <h4>- Nicole Sánchez</h4>
           </article>
         </SwiperSlide>
 
         <SwiperSlide>
           <article className={style.item}>
-            <h3>Muy cómodas sus camisetas</h3>
+            <h3>Diseños muy chulos</h3>
             <span>
               <AiFillStar className={style.icon} />
               <AiFillStar className={style.icon} />
@@ -47,10 +46,7 @@ const Testimonios = () => {
               <AiFillStar className={style.icon} />
             </span>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Reiciendis, repellendus! Nostrum libero eum pariatur nisi facere,
-              et ut esse omnis at fugiat maxime mollitia vero expedita ipsa
-              consequuntur? Minima, itaque.
+              A mí en particular me gustaron mucho los diseños ya que todo sale de la mente maestra diseñadora detrás de Sized. Son estilos nunca antes vistos, y eso es muy top.
             </p>
             <h4>- Martin Padron</h4>
           </article>
@@ -58,7 +54,7 @@ const Testimonios = () => {
 
         <SwiperSlide>
           <article className={style.item}>
-            <h3>Me veo genial</h3>
+            <h3>Excelente trato</h3>
             <span>
               <AiFillStar className={style.icon} />
               <AiFillStar className={style.icon} />
@@ -67,12 +63,9 @@ const Testimonios = () => {
               <AiFillStar className={style.icon} />
             </span>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Reiciendis, repellendus! Nostrum libero eum pariatur nisi facere,
-              et ut esse omnis at fugiat maxime mollitia vero expedita ipsa
-              consequuntur? Minima, itaque.
+              Fué muy fácil comprar con ellos, adémas, la tela y la calidad de sus productos es muy buena y buenos diseños. Me encanta, espero pronto ver más diseños únicos.
             </p>
-            <h4>- Samuel Arrieta</h4>
+            <h4>- Alejandro Villegas</h4>
           </article>
         </SwiperSlide>
       </Swiper>
@@ -81,7 +74,7 @@ const Testimonios = () => {
 
       <div className={style.container_wide}>
         <article className={style.item}>
-          <h3>Fantástico</h3>
+          <h3>Quedé encantada</h3>
           <span>
             <AiFillStar className={style.icon} />
             <AiFillStar className={style.icon} />
@@ -90,16 +83,15 @@ const Testimonios = () => {
             <AiFillStar className={style.icon} />
           </span>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
-            repellendus! Nostrum libero eum pariatur nisi facere, et ut esse
-            omnis at fugiat maxime mollitia vero expedita ipsa consequuntur?
-            Minima, itaque.
+            Cúando me llegaron las prendas pude ver instantáneamente que son de
+            muy buena calidad, se sienten muy bien en el cuerpo. Nunca pensé que
+            una franela podría ser tan cómoda de usar hasta hoy.
           </p>
-          <h4>- Miguel Padrón</h4>
+          <h4>- Nicole Sánchez</h4>
         </article>
 
         <article className={style.item}>
-          <h3>Muy cómodas sus camisetas</h3>
+          <h3>Diseños muy chulos</h3>
           <span>
             <AiFillStar className={style.icon} />
             <AiFillStar className={style.icon} />
@@ -108,16 +100,13 @@ const Testimonios = () => {
             <AiFillStar className={style.icon} />
           </span>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
-            repellendus! Nostrum libero eum pariatur nisi facere, et ut esse
-            omnis at fugiat maxime mollitia vero expedita ipsa consequuntur?
-            Minima, itaque.
+          A mí en particular me gustaron mucho los diseños ya que todo sale de la mente maestra diseñadora detrás de Sized. Son estilos nunca antes vistos, y eso es muy top.
           </p>
           <h4>- Martin Padron</h4>
         </article>
 
         <article className={style.item}>
-          <h3>Me veo genial</h3>
+          <h3>Excelente trato</h3>
           <span>
             <AiFillStar className={style.icon} />
             <AiFillStar className={style.icon} />
@@ -126,14 +115,10 @@ const Testimonios = () => {
             <AiFillStar className={style.icon} />
           </span>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
-            repellendus! Nostrum libero eum pariatur nisi facere, et ut esse
-            omnis at fugiat maxime mollitia vero expedita ipsa consequuntur?
-            Minima, itaque.
+          Fué muy fácil comprar con ellos, adémas, la tela y la calidad de sus productos es muy buena y buenos diseños. Me encanta, espero pronto ver más diseños únicos.
           </p>
-          <h4>- Samuel Arrieta</h4>
+          <h4>- Alejandro Villegas</h4>
         </article>
-
       </div>
     </section>
   );
