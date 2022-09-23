@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script";
 import Hero from "../components/hero/Hero";
 import Franelas from "../components/franelas/Franelas";
 import Gallery from "../components/gallery/Gallery";
@@ -33,8 +34,19 @@ export default function Home() {
           property="og:image"
           content="https://sized.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.85f1d6b0.jpg&w=2048&q=75"
         />
-
       </Head>
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-3MYJMY75MC"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`  window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-3MYJMY75MC');`}
+      </Script>
       <main>
         <Hero />
         <Franelas />
