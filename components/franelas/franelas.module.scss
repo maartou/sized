@@ -64,6 +64,10 @@
             border: 1px solid black
         }
 
+        th {
+            font-size: .8em;
+        }
+
 
 
     }
@@ -103,6 +107,14 @@
 
     .container {
         font-size: 18px;
+    }
+
+    .content {
+        table {
+            th {
+                font-size: 1em;
+            }
+        }
     }
 
 }
