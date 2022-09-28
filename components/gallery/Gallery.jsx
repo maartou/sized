@@ -14,19 +14,19 @@ const Gallery = () => {
 
         <div className={style.grid}>
             <div className={style.foto}>
-                <Image src={savage} alt="franelas oversize savage sized" />
+                <Image src={savage} alt="franelas oversize savage sized" placeholder="blur" />
             </div>
             <div className={style.foto}>
-                <Image src={flower} alt="franelas oversize sized fire flower" />
+                <Image src={flower} alt="franelas oversize sized fire flower" placeholder="blur" />
             </div>
             <div className={style.foto}>
-                <Image src={cats} alt="franelas oversize sized unlucky cats" />
+                <Image src={cats} alt="franelas oversize sized unlucky cats" placeholder="blur" />
             </div>
             <div className={style.foto}>
-                <Image src={red} alt="franelas oversize sized mars red" />
+                <Image src={red} alt="franelas oversize sized mars red" placeholder="blur" />
             </div>
             <div className={`${style.foto} ${style.foto_grande}`}>
-                <Image src={calavera} alt="franelas oversize sized sighless" />
+                <Image src={calavera} alt="franelas oversize sized sighless" placeholder="blur" />
             </div>
         </div>
 

@@ -18,10 +18,10 @@ const ItemRight = ({modelo, precio, descripcion, foto1, foto2, alt, enlace}) => 
           navigation={{ clickable: true }}
         >
           <SwiperSlide>
-            <Image src={foto1} alt={alt} />
+            <Image src={foto1} alt={alt} palceholder="blur" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={foto2} alt={alt} />
+            <Image src={foto2} alt={alt} palceholder="blur" />
           </SwiperSlide>
         </Swiper>
 
@@ -118,10 +118,10 @@ const ItemRight = ({modelo, precio, descripcion, foto1, foto2, alt, enlace}) => 
 
         <div className={style.foto_container}>
           <div className={style.foto_item}>
-            <Image src={foto1} alt={alt} />
+            <Image src={foto1} alt={alt} placeholder="blur" />
           </div>
           <div className={style.foto_item}>
-            <Image src={foto2} alt={alt} />
+            <Image src={foto2} alt={alt} placeholder="blur" />
           </div>
         </div>
 
