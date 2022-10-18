@@ -10,11 +10,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>SIZED | Franelas oversize y estilo unico</title>
+        <title>Compra franelas oversize en Valencia Venezuela | SIZED STORE </title>
         <link rel="icon" href="/img/logo2.svg" />
         <meta
           name="description"
-          content="Franelas y camisetas oversize con diseños únicos y originales; Entra a nuestra tienda, viste nuestras prendas y lleva el control de las tendencias. Estamos ubicados en Valencia edo. Carabobo - Venezuela."
+          content="Franelas y camisas oversize con diseños únicos y originales; Entra a nuestra tienda, viste nuestras prendas y lleva el control de las tendencias. Estamos ubicados en Valencia edo. Carabobo - Venezuela."
         />
         <meta
           name="keywords"
@@ -22,13 +22,13 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="SIZED | Franelas oversize y estilo unico"
+          content="Compra franelas oversize en Valencia Venezuela | SIZED STORE "
         />
         <meta
           property="og:description"
           content="Franelas y camisetas oversize con diseños únicos y originales; Entra a nuestra tienda, viste nuestras prendas y lleva el control de las tendencias. Estamos ubicados en Valencia edo. Carabobo - Venezuela."
         />
-        <meta property="og:site_name" content="SIZED" />
+        <meta property="og:site_name" content="SIZED STORE" />
 
         <meta
           property="og:image"

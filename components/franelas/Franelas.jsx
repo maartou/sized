@@ -2,7 +2,6 @@ import style from "./franelas.module.scss";
 import ItemLeft from "./ItemLeft";
 import ItemRight from "./ItemRight";
 
-
 import calavera from "../../public/img/franelas/calavera.jpg";
 import calavera_2 from "../../public/img/franelas/calavera_item.jpg";
 import flower from "../../public/img/franelas/flower.jpg";
@@ -15,11 +14,15 @@ import savage from "../../public/img/franelas/savage.jpg";
 import savage2 from "../../public/img/franelas/savage_item.jpg";
 
 const Franelas = () => {
+  const data = {
+    precio: "$19.99",
+  };
+
   return (
     <section className={style.section} id="modelos">
       <ItemLeft
         modelo="Franela oversize Sized Sighless"
-        precio="$19.99"
+        precio={data.precio}
         descripcion="Este es nuestro modelo favorito. Un diseño minimalista en clásico negro hacen de esta franela una de nuestras más vendidas."
         foto1={calavera}
         foto2={calavera_2}
@@ -29,7 +32,7 @@ const Franelas = () => {
 
       <ItemRight
         modelo="Franela oversize UNLUCKY CATS model"
-        precio="$16.99"
+        precio={data.precio}
         descripcion="¿Eres fan de las caricaturas clásicas? nosotros sí. Con esta prenda llevarás toda la escencia de la vieja escuela a dónde quiera que vayas."
         foto1={cats}
         foto2={cats_item}
@@ -39,7 +42,7 @@ const Franelas = () => {
 
       <ItemLeft
         modelo="Camiseta oversize Sized Fire Flower"
-        precio="$17.99"
+        precio={data.precio}
         descripcion="Lleva el control de las tendencias con este diseño único y original. FIRE FLOWER es para aquellos apasionados que nunca pierden el estilo dónde sea que estén."
         foto1={flower}
         foto2={flower_2}
@@ -49,7 +52,7 @@ const Franelas = () => {
 
       <ItemRight
         modelo="Franela oversize Sized Mars Red"
-        precio="$17.99"
+        precio={data.precio}
         descripcion="¿Quieres destacar? indudablemente nuestro rojo intenso MARS RED es lo que necesitas, acostumbráte a ser el centro de atención cuando lleves esta prenda."
         foto1={red}
         foto2={red2}
@@ -59,7 +62,7 @@ const Franelas = () => {
 
       <ItemLeft
         modelo="SAVAGE MOOD sized oversized"
-        precio="$16.99"
+        precio={data.precio}
         descripcion="Simple, fresco y minimalista. Tres palabras que describen a la perfección nuestro primer diseño, el bastión de todos los demás."
         foto1={savage}
         foto2={savage2}

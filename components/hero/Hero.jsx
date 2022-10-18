@@ -12,13 +12,10 @@ const Hero = () => {
     <section className={style.section}>
       <div className={style.container}>
         <div className={style.foto}>
-          <Image src={logo} alt="sized logo" />
+          <Image src={logo} alt="sized logo" priority />
         </div>
 
-        <p>
-          Conviértete en tendencia con las mejores franelas oversize de
-          Venezuela.
-        </p>
+        <h1>Compra franelas oversize en Valencia Venezuela | SIZED STORE</h1>
 
         <div className={style.btn}>
           <Link href="#gallery">Ver catálogo</Link>
